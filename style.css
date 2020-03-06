@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+.rectangle {
+  position: fixed;
+  margin-top: -1vh;
+  margin-left: -1vw;;
+  width: 51vw;
+  height: 101vh;
+  background: black;
+}
+
+.buttonBox {
+  position: fixed;
+  background: white;
+  opacity: 0%;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 101vh;
+  width: 51vw;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
