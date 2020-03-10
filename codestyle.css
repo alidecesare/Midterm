@@ -2,3 +2,16 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.buttonBoxDesign {
+  position: fixed;
+  background: pink;
+  opacity: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 25vh;
+  width: 15vw;
+  margin-left: 51vw;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}

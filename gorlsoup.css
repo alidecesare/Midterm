@@ -2,11 +2,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.buttonBoxDesign {
 
-body {
-
+  background: yellow;
+  opacity: 0%;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 50vh;
+  width: 50vw;
+  margin-left: 10vw;
+  z-index:2;
 }
-
 .imgContainer {
+
   width: 100vw;
 }
