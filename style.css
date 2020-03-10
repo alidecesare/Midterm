@@ -11,7 +11,7 @@
   background: black;
 }
 
-.buttonBox {
+.buttonBoxCode {
   position: fixed;
   background: white;
   opacity: 0%;
@@ -19,6 +19,19 @@
   cursor: pointer;
   height: 101vh;
   width: 51vw;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+.buttonBoxDesign {
+  position: fixed;
+  background: white;
+  opacity: 0%;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 101vh;
+  width: 51vw;
+  margin-left: 51vw;
   left: 0px;
   top: 0px;
   z-index:2;
