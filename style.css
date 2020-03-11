@@ -2,37 +2,99 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.rectangle {
+
+@font-face {
+  font-family: 'leonardo';
+  src: url('leonardo.otf');
+}
+
+
+#rectangleLeft {
   position: fixed;
   margin-top: -1vh;
-  margin-left: -1vw;;
-  width: 51vw;
+  margin-left: -0.5vw;;
+  width: 50.5vw;
   height: 101vh;
-  background: black;
+  background: teal;
+  opacity: 1;
+  z-index: 1;
+}
+#rectangleRight {
+  position: fixed;
+  margin-top: -1vh;
+  margin-left: 50vw;;
+  width: 50.5vw;
+  height: 101vh;
+  background: orange;
+  opacity: 1;
+  z-index: 1;
 }
 
 .buttonBoxCode {
   position: fixed;
-  background: white;
+  background: teal;
   opacity: 0%;
   border-radius: 6px;
   cursor: pointer;
   height: 101vh;
-  width: 51vw;
+  width: 50.5vw;
   left: 0px;
   top: 0px;
-  z-index:2;
+  z-index:3;
+}
+.buttonBoxCode:hover {
+  opacity: 100%;
 }
 .buttonBoxDesign {
   position: fixed;
-  background: white;
+  background: orange;
   opacity: 0%;
   border-radius: 6px;
   cursor: pointer;
   height: 101vh;
-  width: 51vw;
-  margin-left: 51vw;
+  width: 50vw;
+  margin-left: 50vw;
   left: 0px;
   top: 0px;
-  z-index:2;
+  z-index:3;
+}
+.buttonBoxDesign:hover {
+  opacity: 100%;
+}
+
+.titleTextCODE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 25vw;
+  font-size: 10em;
+}
+.titleTextCREATIVE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 25vw;
+  font-size: 10em;
+}
+
+a:link {
+  color: white;
+  font-family: 'leonardo';
+}
+a:visited {
+  color: white;
+}
+
+.img {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  z-index: 1;
 }
