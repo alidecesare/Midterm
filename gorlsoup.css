@@ -2,18 +2,40 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.buttonBoxDesign {
-
-  background: yellow;
-  opacity: 0%;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 50vh;
-  width: 50vw;
-  margin-left: 10vw;
-  z-index:2;
+@font-face {
+  font-family: 'leonardo';
+  src: url('Leonardo.ttf');
+}
+.homeButton {
+  position: fixed;
+  display: flex;
+}
+#gorlTextContainer {
+  width: 45vw;
+  margin-top: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7vw;
+}
+#gorlHeader {
+  font-family: 'leonardo';
+  font-size: 6vw;
+}
+#gorlLanguage {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+#gorlBody {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+.arrowdownAlignment {
+  display: flex;
+  margin-left: 70vw;
+  margin-top: -20vh;
+  width: 10vw;
 }
 .imgContainer {
-
   width: 100vw;
 }

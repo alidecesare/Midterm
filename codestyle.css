@@ -6,17 +6,6 @@
   font-family: 'leonardo';
   src: url('Leonardo.ttf');
 }
-/*
-.buttonBoxDesign {
-  background: pink;
-  opacity: 100%;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 15vh;
-  width: 15vh;
-  margin-left: 5vw;
-  margin-top: -30vh;
-}*/
 
 .homeButton {
   position: fixed;
@@ -92,8 +81,6 @@
   font-family: sans-serif;
   font-size: 1.5vw;
 }
-
-
 h1 {
   font-family: 'leonardo';
   font-size: 10em;

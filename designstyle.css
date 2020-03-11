@@ -2,27 +2,48 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.buttonBoxDesign {
-  background-color: red;
-  opacity: 100%;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 25vh;
-  width: 15vw;
-  margin-left: 10vw;
-  left: 0px;
-  top: 0px;
-  z-index:2;
+@font-face {
+  font-family: 'leonardo';
+  src: url('Leonardo.ttf');
 }
-.buttonBoxgorl {
-  background-color: pink;
-  opacity: 100%;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 25vh;
-  width: 15vw;
-  margin-left: 40vw;
-  left: 0px;
-  top: 0px;
-  z-index:2;
+h1 {
+  font-family: 'leonardo';
+  font-size: 10em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.homeButton {
+  position: fixed;
+  display: flex;
+  margin-top: -25vh;
+  margin-left: 10vw;
+}
+#gorlsoupContainer {
+  margin-left: 10vw;
+}
+.gorlButton {
+  display: flex;
+  width: 30vw;
+  border-radius: 15vw;
+  border: 6px solid black;
+}
+#ceramicsContainer {
+ margin-left: 60vw;
+ margin-top: -30vh;
+}
+.ceramicsButton {
+  display: flex;
+  width: 20vw;
+  border-radius: 10vw;
+  border: 6px solid black;
+}
+#colorbookContainer {
+ margin-left: 40vw;
+}
+.colorButton {
+  display: flex;
+  width: 30vw;
+  border-radius: 15vw;
+  border: 6px solid black;
 }
