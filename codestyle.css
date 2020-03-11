@@ -21,13 +21,31 @@
 .homeButton {
   position: fixed;
   display: flex;
-  margin-top: -104vh;
+  margin-top: -25vh;
   margin-left: 10vw;
 }
 #treeContainer {
-  margin-bottom: 20vh;
+  margin-bottom: 40vh;
 }
-#moonContainer{
+#treeTextContainer{
+  width: 25vw;
+  margin-left:60vw;
+  margin-top: -60vh;
+}
+#treeHeader {
+  font-family: 'leonardo';
+  font-size: 3vw;
+}
+#treeLanguage {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+#treeBody {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+
+#moonContainer {
   margin-bottom: 20vh;
 }
 #moonScript {
@@ -35,11 +53,21 @@
   margin-left: 65vw;
 }
 #moonTextContainer {
-  width: 25vw;
-  margin-left:32vw;
-  margin-top: -30vh;
+  width: 35vw;
+  margin-left:25vw;
+  margin-top: -50vh;
 }
 #moonHeader {
+  font-family: 'leonardo';
+  font-size: 3vw;
+}
+#moonLanguage {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+#moonBody {
+  font-family: sans-serif;
+  font-size: 1.5vw;
 }
 
 .catharsisImg {
