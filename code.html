@@ -6,16 +6,47 @@
   </head>
   <link rel="stylesheet" href="codestyle.css">
   <body>
-    <p> CODE </p>
-    <a href="index.html" target="_self"><div class="buttonBoxDesign">back to home
-      </div></a>
+    <h1> CODE </h1>
 
-    <iframe style="width: 800px; height: 800px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/adecesare/embed/0BLGL-pqc"></iframe>
+    <a href="index.html" target="_self">
+      <button type="submit" style="border: 0; background: transparent">
+        <img class="homeButton" src="arrow.png" width="100" alt="submit">
+      </button>
+    </a>
 
-    <iframe style="width: 600px; height: 400px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/adecesare/embed/yb1F-ozZP"></iframe>
+    <!--tree-->
+    <div id="treeContainer">
+      <iframe style="width: 800px; height: 800px;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/adecesare/embed/0BLGL-pqc"></iframe>
+    </div>
 
-    <!--for some reason the microphone won't activate for this code so it doesn't work :( big sad-->
-    <iframe style="width: 800px; height: 600px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/adecesare/embed/PDfc9DjbU"></iframe>
+
+
+    <!--moon-->
+    <div id="moonContainer">
+      <iframe id="moonScript" style="width: 600px; height: 400px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/adecesare/embed/yb1F-ozZP"></iframe>
+      <div id="moonTextContainer"
+        <p id="moonHeader">MOON PHASES</p>
+        <p>p5.js</p>
+        <p>I created this for an assignment using buttons and sliders in p5.js. I enjoyed trying to figure out how to make it so the slider didn't go past certain distances, but also mapping that distance to the full length of the sketch to the moon phases could change. The way I made the moon phases occur with the slider is but attaching it to a circle that is the same color as the background so it looked like the moon image is being changed.</p>
+      </div>
+    </div>
+
+
+    <!--catharsis-->
+    <div id="catharsisContainer">
+      <a href="https://editor.p5js.org/adecesare/present/PDfc9DjbU" target="_self">
+        <button type="submit" style="border: 0; background: transparent">
+          <img class="catharsisImg" src="catharsisImg.png" alt="submit">
+        </button>
+      </a>
+      <div id="catharsisTextContainer">
+        <p id="catharsisHeader">CATHARSIS</p>
+        <p id="catharsisLanguage"> p5.js</p>
+        <p id="catharsisBody">I created this project as a way for students to destress. The little character on screen reacts to the microphone input, meaning when you scream at your computer, the character will grow and change colors, and when you stop screaming the character will scream back at you and shrink back to his original size.</p>
+        <p id="catharsisBody">Click on the image to be redirected to the sketch.</p>
+      </div>
+    </div>
+
 
   </body>
 </html>
