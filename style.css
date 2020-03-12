@@ -92,10 +92,10 @@ a:visited {
 
 .img {
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  height: 100vh;
   z-index: 1;
+  display: block;
+  height: auto;
+  bottom: 0px;
+  max-width: 100%;
+  margin: 0 auto;
 }
